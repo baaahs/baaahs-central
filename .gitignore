@@ -22,4 +22,11 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+# This jar is needed for Heroku
 !gradle/wrapper/gradle-wrapper.jar
+
+# But good golly we don't want the .gradle directory!
+.gradle/
+
+# And we shouldn't be pushing the build directory either
+build/

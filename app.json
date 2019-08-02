@@ -1,0 +1,5 @@
+{
+  "name": "BAAAHS Central",
+  "description": "A new BAAAHS website with new tech.",
+  "addons": [ "heroku-postgresql" ]
+}

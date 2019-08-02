@@ -1,0 +1,4 @@
+
+ BAAAHS Central - the website
+
+:: Built with Spring Boot :: ${spring-boot.version}
